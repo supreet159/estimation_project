@@ -11,7 +11,7 @@ cx = linspace(0, length, Cx);
 cy = linspace(0, bredth, Cy);
 [CLx, CLy] = meshgrid(cx,cy);
 Cxy = [reshape(CLx, Cx*Cy, 1) reshape(CLy, Cx*Cy, 1)];
-points = Cxy;
+points = Cxy
 %%
 if(simulatedata == 0)
     a = 0.16;
